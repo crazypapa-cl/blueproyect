@@ -8,10 +8,6 @@ echo "-------------------------------------"
 # Habilitar el adaptador Bluetooth
 bluetoothctl power on
 
-# Configurar el adaptador para ser descubrible y conectable
-bluetoothctl discoverable on
-bluetoothctl pairable on
-
 # Iniciar el escaneo
 bluetoothctl scan on &
 
